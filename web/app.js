@@ -202,7 +202,7 @@
   function inorganicIndex() {
     page(`<nav class="crumb" aria-label="위치"><a href="#/">처음</a><span aria-hidden="true">/</span><span>무기 교재</span></nav>
       <h1 class="page">무기화학 정리 교재</h1>
-      <p class="lede">일본어 정리 노트(18쪽)와 「気体の実験的製法」「色」 표를 한국어로 옮겼습니다. 용어는 일본어 원어를 함께 적었고, 원본의 오타는 따로 표시했습니다.</p>
+      <p class="lede">일본어 정리 노트(18쪽)와 「気体の実験的製法」「色」 표를 한국어로 옮겼습니다. 용어는 일본어 원어를 함께 적었고, 원본의 오타는 따로 표시했습니다. 제가 보탠 설명은 「보충」으로 표시했습니다.</p>
       ${inoGrid()}
       <p class="src-note">외울 표는 <a href="#/d">암기 카드</a>로 바로 연습할 수 있습니다.</p>${foot()}`, "무기 교재", "i");
   }

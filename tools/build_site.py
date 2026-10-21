@@ -104,6 +104,8 @@ def inorganic():
     text = (INO / "textbook.md").read_text()
     text = re.sub(r"\A---\n.*?\n---\n", "", text, flags=re.S)
     parts = re.split(r"^(?=# )", text, flags=re.M)
+    if parts and not parts[0].lstrip().startswith("# "):
+        parts = parts[1:]  # 머리말은 사이트 소개글이 대신한다
     index, data, search = [], {}, []
     for p in parts:
         if not p.strip():
