@@ -324,7 +324,9 @@ footer.foot{margin-top:64px;padding-top:18px;border-top:1px solid var(--rule);fo
   .table-art .nm{display:none}
   .stats>div{flex-basis:45%;border-bottom:1px solid var(--rule2)}
   .pager a b{font-size:14px}
-  .ino-page .tbl table{min-width:600px}
+  .ino-page .tbl table{min-width:0;font-size:13px}
+  .ino-page .tbl th,.ino-page .tbl td{padding:7px 8px}
+  .ino-page .tbl th{white-space:normal}
 }
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
 @media print{.top,.tabbar,.aside,.actions,.pager,.toolbar{display:none!important}body{background:#fff}}
